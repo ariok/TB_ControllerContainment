@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A57B1DC8178F205C0076F298 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A57B1DC7178F205C0076F298 /* icon.png */; };
 		A5A9B036178824BC00B239D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A9B035178824BC00B239D6 /* UIKit.framework */; };
 		A5A9B038178824BC00B239D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A9B037178824BC00B239D6 /* Foundation.framework */; };
 		A5A9B03A178824BC00B239D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A9B039178824BC00B239D6 /* CoreGraphics.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A57B1DC7178F205C0076F298 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A5A9B032178824BC00B239D6 /* TB_ViewContainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TB_ViewContainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A9B035178824BC00B239D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5A9B037178824BC00B239D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,7 @@
 		A5A9B029178824BC00B239D6 = {
 			isa = PBXGroup;
 			children = (
+				A57B1DC7178F205C0076F298 /* icon.png */,
 				A5A9B03B178824BC00B239D6 /* TB_ViewContainment */,
 				A5A9B034178824BC00B239D6 /* Frameworks */,
 				A5A9B033178824BC00B239D6 /* Products */,
@@ -225,6 +228,7 @@
 				A5A9B065178826B200B239D6 /* Lato-Bold.ttf in Resources */,
 				A5A9B0701788293800B239D6 /* DetailViewController.xib in Resources */,
 				A5A9B07217882B6900B239D6 /* Lato-Italic.ttf in Resources */,
+				A57B1DC8178F205C0076F298 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +362,7 @@
 				A5A9B051178824BC00B239D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
