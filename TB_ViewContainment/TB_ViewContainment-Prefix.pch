@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'TB_ViewContainment' target in the 'TB_ViewContainment' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    //FlatUI
+    #import "UIFont+FlatUI.h"
+    #import "UIColor+FlatUI.h"
+    #import "UINavigationBar+FlatUI.h"
+    #import "UIColor+FlatUI.h"
+    #import "FUIButton.h"
+#endif
